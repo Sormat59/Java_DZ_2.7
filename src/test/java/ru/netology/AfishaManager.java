@@ -16,6 +16,8 @@ public class AfishaManager {
         this.numberOfFilms = numberOfFilms;
     }
 
+
+
     public void addFilm(Film film) {
         int length = films.length + 1;
         Film[] tmp = new Film[length];
